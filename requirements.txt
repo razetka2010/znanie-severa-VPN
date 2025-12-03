@@ -1,0 +1,4 @@
+aiogram==3.17.0
+sqlalchemy==2.0.40
+aiofiles==23.2.1
+python-dotenv==1.0.1
