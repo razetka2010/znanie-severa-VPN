@@ -531,6 +531,7 @@ async def process_help(callback: CallbackQuery):
         "   • Ключ выдается в течение 15 минут после проверки платежа.\n\n"
         "5. <b>Проблемы с подключением?</b>\n"
         "   • Обратитесь в поддержку: @razetkaartem"
+        "   • Обратитесь в поддержку: @dapogkakto"
     )
     
     builder = InlineKeyboardBuilder()
@@ -704,4 +705,5 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
+
         print("\n👋 Бот остановлен")
